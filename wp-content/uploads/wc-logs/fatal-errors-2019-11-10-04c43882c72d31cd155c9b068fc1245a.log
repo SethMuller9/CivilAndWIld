@@ -1,0 +1,4 @@
+2019-11-10T03:02:45+00:00 CRITICAL require(): Failed opening required '/home4/awryhomy/public_html/wp-content/themes/storefront/classes/class-twentynineteen-svg-icons.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home4/awryhomy/public_html/wp-content/themes/twentynineteen/functions.php on line 283
+
+2019-11-10T03:02:46+00:00 CRITICAL require(): Failed opening required '/home4/awryhomy/public_html/wp-content/themes/storefront/classes/class-twentynineteen-svg-icons.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home4/awryhomy/public_html/wp-content/themes/twentynineteen/functions.php on line 283
+

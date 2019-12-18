@@ -21,9 +21,9 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
-@import "compass";
-@import "compass/reset";
 
-body{
-	background: red; 
-} 
+@import "sass/fonts";
+
+p, body,h1{
+	font-family: 'Gotham Rounded Light' !important; 
+}

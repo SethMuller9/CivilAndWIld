@@ -24,6 +24,252 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 @import "sass/fonts";
 
-p, body,h1{
+p, body,h1,h2,h3,h4,h5{
 	font-family: 'Gotham Rounded Light' !important; 
+
+} 	
+
+body{
+
+	background: #03061a !important;
+    color: white;
+	
+	section.page-header-block{
+		padding-top: 15px;
+	}
+
+	.page-header-block img.header-logo {
+    	margin-bottom: 0px;
+	}
 }
+
+.container{
+    max-width: 1000px;
+    background: #03061a !important;
+    padding: 20px 0px !important;
+
+
+}
+
+.white{
+	color: white;
+}
+
+.nav-wrapper{
+	max-width: 1000px;
+}
+.footer{
+	display: none;
+}
+nav{
+    display: flex;
+    padding-top: 16px;
+}
+h1{
+	letter-spacing: 4px !important;
+    font-family: 'Gotham Rounded Light' !important;
+    color: white !important;
+	line-height: 36px;
+}
+h2{
+    letter-spacing: 4px !important;
+    font-family: 'Gotham Rounded Light' !important;
+    color: white !important;
+	line-height: 32px;
+}
+h3{
+	color: white !important;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    letter-spacing: .7px;
+    padding: 10px 0px 20px ;
+    line-height: 22px !important; 
+}
+
+.cbtn{
+	color: white !important;
+	background: transparent;
+	transition: all .3s;
+	border: 2px solid white;
+	padding: 13px 17px;
+	font-size: 13px;
+	margin: auto;
+	text-align: center;
+	max-width: 300px;
+
+}
+
+.cbtn:hover{
+	background: white;
+	color: #03061a !important;
+	text-decoration: none;
+}
+
+ul,li{
+	color: white;
+	font-family: 'Gotham Rounded Light' !important;
+	font-size: 15px;
+	line-height: 22px;
+	list-style-type: none;
+	list-style: none;
+}
+
+ul.dashed {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+ul.dashed > li {
+    margin-left: 15px;  
+}
+
+/* Prevent nested li's from getting messed up */
+ul.dashed > li::before {
+    content: "-";
+    margin-left: -20px;
+}
+
+img{
+	margin-top:20px;
+}
+
+a{
+	text-decoration: none !important;
+	transition: all .3s;
+	color: #ca6 !important;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
+a.nav-item{
+    display: inline-block;
+    color: white !important;
+    flex-basis: 20%;
+    width: 17.8%;
+    text-align: center;
+    margin: 100px 10px 70px;
+    font-size: 16px !important;
+    text-decoration: none;
+    transition: all .3s;
+    border: 2px solid #03061a !important;
+    height: 100%;
+    letter-spacing: 1.5px;
+    position: relative;
+    top: 20px;
+    padding: 17px 20px;
+
+}
+a.nav-item:hover{
+    border: 2px solid white !important;
+    text-decoration: none;
+    color: #ca6 !important;
+}
+a.nav-item.image:hover{
+    border: 2px solid #03061a !important;
+
+}
+a.nav-item.image{
+    margin-bottom:30px;
+    padding:0px;
+	padding-top:0px;
+	margin-top: 45px; 
+	top: -15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.nav-item img{
+	position: relative;
+    top: 0px;
+    max-width: 275px;
+    width: 100%;
+    min-width: 90px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 18%;
+    margin-top:0px;
+}
+
+.entry-title{
+	display: none !important;
+}
+.home{
+	section.features-section, div.col-md-12.hero-banner{
+    	border-bottom: 0px solid black;
+    }
+
+    .hero-banner {
+
+    	h2{
+		    font-family: 'Gotham Rounded Light'; 
+		    padding: 20px;
+		    letter-spacing: 4px;
+		    font-size: 36px;
+		    font-weight: bold;
+		    margin-bottom: 15px;
+		}
+
+	    .big-hero-buttons button{
+		     font-family: 'Gotham Rounded Light';
+		     padding: 10px 25px;
+		     transition: all .3s;
+		     border: 2px solid white; 
+		}
+		
+		.big-hero-buttons button:hover{
+		    border: 2px solid white;
+		    color: white;
+		    background: rgba(215,215,215,.18);
+		}
+		p{
+		    color: white;
+		    line-height: 20px;
+		}
+
+	}
+	.top img{
+	}
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    font-size: 13px;
+    color: white;
+    font-family: 'Gotham Rounded Light' !important;
+    background: transparent;
+    transition: all .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -20,90 +20,44 @@ get_header();
              do_action( 'relia_jumbotron' );
         endif; ?>
         
-            <div class="container-fluid front-page-content">
+            <div class="container front-page-content">
 
-                <div class="row">
-
-                    <div class="col-sm-12">
-
-                        <h2 class="wow fadeInDown feature-content-title">
-
-                            <?php if ( get_theme_mod( 'relia_homepage_content_title_toggle', 'show' ) == 'show' ) : ?>    
-
-                                <?php echo esc_attr( get_theme_mod( 'relia_homepage_content_title', __( 'Featured Content', 'relia' ) ) ); ?>
-
-                            <?php endif; ?>
-                            
-                        </h2>
-
+                <div class="top row">
+                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <div class="col-sm-7">
+                        <h2>INSPIRED BY NATURE</h2>
+                        <p>May I introduce you to Civil & Wild Designs, LLC., located in the hills above Boulder, CO. What ties this business together is the fundamental drive to experience and incorporate nature in our ever-complicating, digital lives. Whether that means bringing it inside through our furnishings and decor, or getting outside on a pair of tailored skis, its up to you!  
+                        <br>
+                        <br>
+                        These designs suggest a balance between the natural world and our civil one by leveraging natural shapes and materials, and combining them with modern building materials.
+                        </p>
+                    </div>
+                    <div class="col-sm-5">
+                        <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/productimages/Framed-Aspen-3.jpg" alt="">
                     </div>
 
-                    <div class="container">
-
-                        <div class="row">
-
-                            <div class="homepage-page-content col-sm-12">
-
-                                <?php if (have_posts()) : ?>
-
-                                    <?php if (is_home() && !is_front_page()) : ?>
-
-                                        <header>
-                                            <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-                                        </header>
-
-                                    <?php endif; ?>
-
-
-                                    <?php echo $front == 'posts' ? '<div class="relia-blog-content">' : ''; ?>
-
-                                    <?php /* Start the Loop */ ?>
-                                    <?php while (have_posts()) : the_post(); ?>
-
-                                        <?php
-                                            if ($front == 'posts') :
-                                                get_template_part('template-parts/content-blog', get_post_format());
-                                            else:
-                                                get_template_part('template-parts/content-page-home', get_post_format());
-                                            endif;
-                                        ?>
-
-                                    <?php endwhile; ?>
-
-                                    <?php echo $front == 'posts' ? '</div>' : ''; ?>
-
-                                    <?php if ($front == 'posts') : ?>
-                                
-                                        <?php $paginate_links = paginate_links( array(
-                                            'total' => $wp_query->max_num_pages,
-                                        ) ); ?>
-
-                                        <?php if ( $paginate_links ) : ?>
-
-                                            <div class="col-sm-4">
-                                                <div>
-                                                    <div class="pagination-links"> 
-                                                        <?php echo $paginate_links; ?>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        <?php endif; ?>
-                                
-                                    <?php endif; ?>
-
-                                <?php else : ?>
-
-                                    <?php get_template_part('template-parts/content', 'none'); ?>
-
-                                <?php endif; ?>
-
-                            </div>
-
-                        </div><!-- row -->
-                    </div><!-- container-->  
                 </div> <!-- row -->
+                <br><br><br><br><br><br><br><br><br><br>
+                <br><br>
+                <div class="mid row">
+
+
+                    <div class="col-sm-6">
+                        <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri(); ?>/images/ProductImages/MorningTable.jpg" alt=""/>
+                    </div>
+                    <div class="col-sm-6">
+                        <h2>CRAFTED WITH CARE</h2>
+                        <p>Each comission is carefully handmade to the client's exact specs. We wish to provide you with timeless heirlooms that are each durable, functional, sustainably sourced, and simply elegant. 
+                        <br>
+                        </p>
+                    </div>
+
+                </div> <!-- row -->  
+                <br><br><br><br> <br><br><br><br> 
+                <a href="/contact" class="center-block text-center cbtn">CONTACT</a>
+                <br><br><br><br><br><br><br><br><br> 
             </div><!-- container-fluid -->    
+            
             
     </main><!-- #main -->
 </div><!-- #primary -->

@@ -15,14 +15,19 @@ get_header();
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo/horizontal.png" alt="Civil And Wild Designs" class="img-responsive">
                 <br>
                 <br>
-                <h3>Follow us on Instagram!
+                <br>
+                <br>
+                <h3 class='follow'>Follow us on Instagram!
+                <br>
                 <br>
                 <a href="https://www.instagram.com/civilandwilddesigns/" target="_blank">@civilandwilddesigns</a></h3>
-                <br><br>
+                <br><br><br><br>
                 <p><a href="/contact">info@civilandwilddesigns.com</a>
                 <br>
                 1.252.883.6671
                 <br>
+                <br>
+                Civil & Wild Designs, LLC. 
                 <br>
                 500 Salina Mountain Road
                 <br>

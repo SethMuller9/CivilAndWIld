@@ -46,9 +46,25 @@ body{
 .container{
     max-width: 1000px;
     background: #03061a !important;
-    padding: 20px 0px !important;
+    padding: 20px 30px !important;
 
 
+}
+
+.vis-mobile{
+	display: none;
+
+	@media(max-width: 1024px){
+		display: initial;
+	}
+}
+
+.hidden-mobile{
+	display: initial;
+
+	@media(max-width: 1024px){
+		display: none;
+	}
 }
 
 .white{
@@ -244,6 +260,37 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     font-family: 'Gotham Rounded Light' !important;
     background: transparent;
     transition: all .3s;
+}
+.header-mobile{
+	display: none;
+}
+@media(max-width: 1024px){
+	.header-desk{
+		display: none;
+	}
+	.header-mobile{
+		display: block;
+	}
+	.header-logo{
+		margin: auto;
+	    text-align: center;
+	    display: block;
+	}
+	.main-nav{
+		padding-top: 0px;
+    	width: 100%;
+	}
+	.menu-item a{
+		color: #03061a !important;
+	}
+	.cbtn{
+		margin-bottom: 20px;
+    	display: block;
+	}
+	.follow{
+		font-size: 16px;
+    	letter-spacing: 1px;
+	}
 }
 
 

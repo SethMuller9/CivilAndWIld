@@ -23,13 +23,13 @@ get_header();
             <div class="container front-page-content">
 
                 <div class="top row">
-                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br><br>
                     <div class="col-sm-7">
                         <h2>INSPIRED BY NATURE</h2>
-                        <p>May I introduce you to Civil & Wild Designs, LLC., located in the hills above Boulder, CO. What ties this business together is the fundamental drive to experience and incorporate nature in our ever-complicating, digital lives. Whether that means bringing it inside through our furnishings and decor, or getting outside on a pair of tailored skis, its up to you!  
+                        <p>What ties Civil & Wild Designs together is the fundamental drive to experience and incorporate nature in our ever-complicating, digital lives. Whether that means bringing it inside through our furnishings and decor, or getting outside on a pair of tailored skis, its up to you!  
                         <br>
                         <br>
-                        These designs suggest a balance between the natural world and our civil one by leveraging natural shapes and materials, and combining them with modern building materials.
+                        We offer a balance between the natural world and our civil one by leveraging natural shapes and materials in our construction, and by combining them with modern building materials.
                         </p>
                     </div>
                     <div class="col-sm-5">
@@ -37,7 +37,7 @@ get_header();
                     </div>
 
                 </div> <!-- row -->
-                <br><br><br><br><br><br><br><br><br><br>
+                <br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br class='hidden-mobile'><br><br><br><br>
                 <br><br>
                 <div class="mid row">
 
@@ -47,7 +47,7 @@ get_header();
                     </div>
                     <div class="col-sm-6">
                         <h2>CRAFTED WITH CARE</h2>
-                        <p>Each comission is carefully handmade to the client's exact specs. We wish to provide you with timeless heirlooms that are each durable, functional, sustainably sourced, and simply elegant. 
+                        <p>Each comission is carefully handmade to the clients' exact specifications. We wish to provide you with timeless heirlooms that are each durable, functional, sustainably sourced, and simply elegant. 
                         <br>
                         </p>
                     </div>
